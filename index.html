@@ -1,0 +1,58 @@
+<div class="spinner">
+   
+</div>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(219, 219, 225);
+        justify-content: center;
+
+    }
+    .div{
+        justify-content: center;
+
+    }
+
+    h1{
+        padding: 38px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 10px;
+        margin-top: 200px;
+    }
+   
+    
+    .spinner {
+        
+        position:relative;
+        width: 11em;
+
+        height: 12em;
+        border-radius: 69%;
+        margin: 6em auto;
+        background-color: whitesmoke;
+        box-shadow: -2em -2em green,
+                  -2em 2em blue,
+                  2em 2em red,
+                  2em -2em yellow;
+        animation: spin 7s infinite linear;
+
+    }
+    @keyframes spin {
+        0% { transform: rotate(4turn);}
+        50% { box-shadow: -2em -2em green
+                      -2em 2em blue,
+                      2em 2em red,
+                      2em -2em yellow;
+        }
+
+    }
+
+    
+</style>
